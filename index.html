@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- мета теги -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет-технологии-html и css</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- видимый пользователем код -->
+<div class="container">
+    <header class="header">
+        <div class="logo">ИнтернетТех</div>
+        <form action="" class="search">
+            <input type="search" class="search-input" placeholder="Здесь можно ввести данные">
+            <button type="submit" class="search-button">
+                <img src="./imgs/search-icon.svg" alt="search-icon">
+            </button>
+        </form>
+        <div class="user">
+            <img src="imgs/kobe.jpg" alt="kobe" class="avatar">
+        </div>
+    </header>
+    <main class="main">
+        <video autoplay muted loop class="my-video" poster="imgs/backPosterVid.png"  allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="back">
+            <source src="videos/videoBack.mp4" type="video/mp4">
+        </video>
+        <h1 class="title">Первая работа</h1>
+        <small class="title-en">HTML и CSS</small>
+        <div class="info">
+            <div class="course-info">
+                <span class="tag">
+                    Курс
+                </span>
+                <span class="year">2022 год</span>
+                <a href="https://e.sfu-kras.ru/" target="_blank" class="link-to">Перейти на е-курсы</a>
+            </div>
+            <a href="#" class="more">Подробнее</a>
+        </div>
+        <div class="content">
+            <div class="short-info">
+                <h3 class="themes-title">Другие практики:</h3>
+            <ul class="themes-list">
+                <li class="themes-list-item">HTML и CSS</li>
+                <li class="themes-list-item">Javascript - Основы</li>
+                <li class="themes-list-item">Javascript - Canvas API</li>
+                <li class="themes-list-item">Javascript - jQuery</li>
+                <li class="themes-list-item">Node.js - HTTP-сервер</li>
+                <li class="themes-list-item">Node.js - express и шаблоны</li>
+                <li class="themes-list-item">Node.js - MongoDB</li>
+            </ul>
+            </div>
+            <div class="full-info">
+                <nav class="tabs">
+                    <a href="#" class="tab-item tab-item-active">Объявления</a>
+                    <a href="#" class="tab-item">Форум</a>
+                    <a href="#" class="tab-item">Программы</a>
+                    <a href="#" class="tab-item">Инструкция</a>
+                    <a href="#" class="tab-item">Документы</a>
+                    <a href="#" class="tab-item">Основы</a>
+                </nav>
+                <div class="full-content">
+                    <div class="tabs-content">
+                        <h3 id="text-header">Разработать HTML- документ и стили CSS для него.</h3>
+                        <h4 id="text-title">1. HTML</h4>
+                        <p class="text">
+                            Сформировать основную структуру для вашего проекта.
+                            
+                            Использовать:
+                            
+                            div, span, a, p, img, table, ul, h1-3
+                            iframe
+                            meta (настроить кодировку, keywords, description)
+                            элементы форм (input, select, button и пр.)
+                            форматирование текста
+                            </p>
+                            <h4 id="text-title">2. CSS</h4>
+                            <p class="text">
+                            
+                                Cелекторы CSS: по имени тега, по id, по class, сложный селектор
+                                свойства CSS: цвет текста и фона, размер, положение
+                                CSS3: анимация свойств (transition, keyframes)
+                                @media: изменение стилей в зависимости от размера или ориентации устройства
+                                позиционирование элементов и z-index
+                                подключение внешних шрифтов
+                                transform
+                                псевдоклассы
+                                псевдоэлементы
+                                вычисления: calc</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.content -->
+    </main>
+</div>
+<!-- /.container -->
+</body>
+</html>
